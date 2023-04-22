@@ -1,0 +1,71 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('./components/footer.css');
+@import url('./components/icon.interaction.css');
+@import url('./components/how-it-works.css');
+
+/* Utilities */
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 50px 0;
+}
+.hero-content {
+  width: 50%;
+  text-align: left;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.hero p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #555;
+}
+.hero button {
+  font-size: 18px;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.hero button:hover {
+  background-color: #555;
+}
+.hero-image {
+  width: 50%;
+}
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
